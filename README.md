@@ -30,20 +30,12 @@ I added a "Return to Home" for the 404 error page handling and giving the users 
 
 ## Video Walkthrough
 
-**Note: please be sure to
-
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://github.com/user-attachments/assets/d5834620-3331-41e0-8ef3-043ae3fb0bf3
 
-<!-- Replace this with whatever GIF tool you used! -->
+GIF created with Kap.
 
-GIF created with ...  Add GIF tool here
-
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
