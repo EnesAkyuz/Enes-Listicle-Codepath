@@ -35,6 +35,12 @@ app.use('/api/*', (req, res) => {
     res.status(404).json({ error: 'Not found' });
 });
 
+app.use(express.static(path.join(__dirname, '../client')));
+
+app.use((req, res) => {
+  res.status(404).sendFile(path.join(__dirname, '../client', '404.html'));
+});
+
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}/`);
