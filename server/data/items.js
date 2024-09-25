@@ -3,7 +3,7 @@ const items = [
       id: 1,
       title: 'Candide',
       author: 'Voltaire',
-      genre: 'Philosophical Fiction',
+      genre: 'Philosophical Fiction, Satire',
       imageUrl: 'https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781627932998/candide-9781627932998_hr.jpg',
       description: 'Candide is a satirical novella by Voltaire, published in 1759. It is a critique of optimism, religion, and the folly of humanity, following the misadventures of a young man, Candide, as he faces a series of increasingly absurd challenges.'
     },

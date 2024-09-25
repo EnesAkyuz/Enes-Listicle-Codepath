@@ -19,11 +19,11 @@ if (!itemId) {
         window.location.href = '404.html';
       } else {
         document.getElementById('item-title').textContent = item.title;
-        document.getElementById('item-author').innerHTML += item.author;
-        document.getElementById('item-genre').innerHTML += item.genre;
+        document.getElementById('item-author').innerHTML = `<strong>Author:</strong> ${item.author}`;
+        document.getElementById('item-genre').innerHTML = `<strong>Genre:</strong> ${item.genre}`;
         document.getElementById('item-image').src = item.imageUrl;
         document.getElementById('item-image').alt = item.title;
-        document.getElementById('item-description').textContent = item.description; // Added description
+        document.getElementById('item-description').textContent = item.description;
       }
     })
     .catch((error) => {

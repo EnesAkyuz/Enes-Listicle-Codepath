@@ -2,19 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book Details</title>
   <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
-    <h1 id="item-title">Book Title</h1>
-  </header>
-  <main>
-    <img id="item-image" src="" alt="Book Cover">
-    <p id="item-author"><strong>Author:</strong> </p>
-    <p id="item-genre"><strong>Genre:</strong> </p>
-    <p id="item-description"><strong>Description:</strong> </p> <!-- Added description field -->
+  <main class="book-details">
+    <article class="book-card">
+      <div class="book-card-image">
+        <img id="item-image" src="" alt="Book Cover">
+      </div>
+      <div class="book-card-content">
+        <h1 id="item-title">Book Title</h1> <!-- Moved the title into the card -->
+        <p id="item-author"><strong>Author:</strong> </p>
+        <p id="item-genre"><strong>Genre:</strong> </p>
+        <p id="item-description"><strong>Description:</strong> </p>
+      </div>
+    </article>
   </main>
   <script src="js/item.js"></script>
 </body>
