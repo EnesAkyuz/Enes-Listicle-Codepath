@@ -23,6 +23,7 @@ if (!itemId) {
         document.getElementById('item-genre').innerHTML += item.genre;
         document.getElementById('item-image').src = item.imageUrl;
         document.getElementById('item-image').alt = item.title;
+        document.getElementById('item-description').textContent = item.description; // Added description
       }
     })
     .catch((error) => {
