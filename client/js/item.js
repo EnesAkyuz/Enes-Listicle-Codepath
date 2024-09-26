@@ -1,4 +1,4 @@
-const SERVER_URL = '';
+const SERVER_URL = ''; // Assuming your server is hosted locally or remotely
 
 // Function to get query parameters
 function getQueryParam(param) {
@@ -6,7 +6,7 @@ function getQueryParam(param) {
   return urlParams.get(param);
 }
 
-const itemId = getQueryParam('id');
+const itemId = getQueryParam('id'); // Get the item ID (UUID) from the query params
 
 if (!itemId) {
   // Redirect to 404 page if no id is provided
@@ -18,6 +18,7 @@ if (!itemId) {
       if (item.error) {
         window.location.href = '404.html';
       } else {
+        // Display the item details on the page
         document.getElementById('item-title').textContent = item.title;
         document.getElementById('item-author').innerHTML = `<strong>Author:</strong> ${item.author}`;
         document.getElementById('item-genre').innerHTML = `<strong>Genre:</strong> ${item.genre}`;

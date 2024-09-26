@@ -1,6 +1,8 @@
+const { v4: uuidv4 } = require('uuid');
+
 const items = [
     {
-      id: 1,
+      id: uuidv4(),
       title: 'Candide',
       author: 'Voltaire',
       genre: 'Philosophical Fiction, Satire',
@@ -8,7 +10,7 @@ const items = [
       description: 'Candide is a satirical novella by Voltaire, published in 1759. It is a critique of optimism, religion, and the folly of humanity, following the misadventures of a young man, Candide, as he faces a series of increasingly absurd challenges.'
     },
     {
-      id: 2,
+      id: uuidv4(),
       title: 'The Stranger',
       author: 'Albert Camus',
       genre: 'Philosophical Fiction, Existentialism',
@@ -16,7 +18,7 @@ const items = [
       description: 'The Stranger is a novel by Albert Camus that explores existentialism and the absurd. The story follows Meursault, an emotionally detached man, whose indifference to social norms and emotional connections leads to his condemnation for a senseless crime.'
     },
     {
-      id: 3,
+      id: uuidv4(),
       title: 'The Trial',
       author: 'Franz Kafka',
       genre: 'Philosophical Fiction, Absurdist Fiction',
@@ -24,7 +26,7 @@ const items = [
       description: 'The Trial is a novel by Franz Kafka that explores themes of existential anxiety, powerlessness, and absurdity. It follows the story of Josef K., a man who is arrested and prosecuted by a mysterious authority for an unspecified crime, a metaphor for human struggles with bureaucracy and fate.'
     },
     {
-      id: 4,
+      id: uuidv4(),
       title: 'Waiting for Godot',
       author: 'Samuel Beckett',
       genre: 'Philosophical Drama, Absurdist Fiction',
@@ -32,7 +34,7 @@ const items = [
       description: 'Waiting for Godot is a play by Samuel Beckett that epitomizes absurdist theatre. The story revolves around two characters, Vladimir and Estragon, who wait endlessly and in vain for the arrival of someone named Godot. The play explores existential themes of meaning, time, and the human condition.'
     },
     {
-      id: 5,
+      id: uuidv4(),
       title: 'No Exit',
       author: 'Jean-Paul Sartre',
       genre: 'Philosophical Drama, Existentialism',

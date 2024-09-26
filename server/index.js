@@ -1,23 +1,25 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
-const items = require('./data/items'); // Import the items array from items.js
+const items = require('./data/items'); 
 
 const app = express();
 
 app.use(cors());
 
+
 app.get('/api/items', (req, res) => {
-    res.json(items);
+    res.json(items); 
 });
 
+
 app.get('/api/items/:id', (req, res) => {
-    const itemId = parseInt(req.params.id);
-    const item = items.find((i) => i.id === itemId);
+    const itemId = req.params.id; 
+    const item = items.find((i) => i.id === itemId); 
     if (item) {
-      res.json(item);
+      res.json(item); 
     } else {
-      res.status(404).json({ error: 'Item not found' });
+      res.status(404).json({ error: 'Item not found' }); 
     }
 });
 
@@ -31,10 +33,8 @@ app.use((req, res) => {
   res.status(404).sendFile(path.join(__dirname, '../client', '404.html'));
 });
 
-// Set the port
 const PORT = process.env.PORT || 3001;
 
-// Start the server and save the instance
 const server = app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}/`);
 });
