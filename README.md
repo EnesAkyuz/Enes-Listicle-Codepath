@@ -26,18 +26,20 @@ The following **additional** features are implemented:
 
 - [X] List anything else that you added to improve the site's functionality!
 
-I added a "Return to Home" for the 404 error page handling and giving the users an option to directly return to the main page. I also added a read more button instead of direct clicking
+I have implemented UUID urls for the items!
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented required features (I have updated the codebase with UUIDs in URLs to receive the full grade.)):
 
-https://github.com/user-attachments/assets/d5834620-3331-41e0-8ef3-043ae3fb0bf3
 
 GIF created with Kap.
 
-
 ## Notes
+
+I have implemented unique UUID urls for the items so that it is more clear that my urls included the ids this time!
+
+
 
 The main challenge I encountered was that I could not figure out the safe closing option for the ports. I tried to code a safe close and safe open functions to keep the ports unoccupied but it did not seem to work well. Still, I left them in the code since they did not affect or break any working components of the codebase. The second hard part was basically styling things without any frameworks or downloadable libraries (PicoCSS is great but readily available cards are also great!). However, AI tools helped a lot on that side. The last part was to make the website feel full. I think it is a me problem but I just did not feel like I had much content to make the website feel full or functional. However, I think this is very minor. Other than that, the whole coding process was pretty smooth. I rarely had any bumps.
 
