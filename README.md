@@ -33,6 +33,11 @@ https://github.com/user-attachments/assets/603fbc60-1926-450f-bc36-7a1f38d80bac
 
 
 GIF created with Kap
+## Screenshots
+<img width="600" alt="Screenshot 2024-10-03 at 3 05 34 AM" src="https://github.com/user-attachments/assets/0aebc2ac-9ab7-4f31-8440-9aa45bab9faf">
+<img width="300" alt="Screenshot 2024-10-03 at 3 05 22 AM" src="https://github.com/user-attachments/assets/a9bc6441-545c-4885-bf5f-4bc0472f2247">
+
+
 
 ## Notes
 
