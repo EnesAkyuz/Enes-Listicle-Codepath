@@ -22,7 +22,7 @@ if (!itemId) {
         document.getElementById('item-title').textContent = item.title;
         document.getElementById('item-author').innerHTML = `<strong>Author:</strong> ${item.author}`;
         document.getElementById('item-genre').innerHTML = `<strong>Genre:</strong> ${item.genre}`;
-        document.getElementById('item-image').src = item.imageUrl;
+        document.getElementById('item-image').src = item.image_url;
         document.getElementById('item-image').alt = item.title;
         document.getElementById('item-description').textContent = item.description;
       }

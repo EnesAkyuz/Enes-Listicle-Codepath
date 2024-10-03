@@ -12,6 +12,16 @@ body{
   text-transform: uppercase;
   padding: 4rem 0; /* Add padding for a larger header area */
   
+  #search-bar {
+    width: 50%;
+    padding: 0.5rem;
+    margin: 1rem auto;
+    display: block;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
   /* Background Image Styling */
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.3), 
