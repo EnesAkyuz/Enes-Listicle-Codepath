@@ -1,25 +1,25 @@
+# WEB103 Project 2 - *Bookibles 2*
 
-# WEB103 Project 2 - *Name of App Here*
+Submitted by: **Enes Akyuz**
 
-Submitted by: **Your name here**
+About this web app: **An app that displays my favorite books with a search function and PostgreSQL database support this time!**
 
-About this web app: **App description here**
-
-Time spent: **X** hours
+Time spent: **4** hours
 
 ## Required Features
 
 The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
-- [ ] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [ ] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
-- [ ] **The PostgreSQL database includes a table that matches the data displayed in the web app**
-  - [ ] **NOTE: Your GIF or a screenshot added to the README must include a view of your Railway database that shows the contents of the table used by your app**
+
+- [X] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
+- [X] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+- [X] **The PostgreSQL database includes a table that matches the data displayed in the web app**
+  - [X] **NOTE: Your GIF or a screenshot added to the README must include a view of your Railway database that shows the contents of the table used by your app**
 
 The following **optional** features are implemented:
 
-- [ ] The user can search for items with a specific attribute
+- [X] The user can search for items with a specific attribute
 
 The following **additional** features are implemented:
 
@@ -32,7 +32,9 @@ Here's a walkthrough of implemented required features:
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
+
 GIF created with ...  GIF tool here
+
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -40,11 +42,11 @@ GIF created with ...  GIF tool here
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+One of the weird challenges I have encountered in this second step was definitely the part where I had to code the logic for the empty search bar. When the search bar was empty, I needed to display everything and when the search bar had some text, I should display the related items, and if a user searches with an empty search bar, I wanted to return everything. Except for coding that logic, everything else was pretty straightforward.
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright 2001, Enes Akyuz
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
